@@ -52,7 +52,7 @@ This task increases the difficulty. All of the answers will be in the classic ro
 
 You might have to start using hashcat here and not online tools. It might also be handy to look at some example hashes on hashcats page.
 
-### Command : ** hashcat -m (hash mode) -a 0 (.txt file saved with given hash) /usr/share/wordlists/rockyou.txt **
+### Command : hashcat -m (hash mode) -a 0 (.txt file saved with given hash) /usr/share/wordlists/rockyou.txt 
 
 Q1. Hash: F09EDCB1FCEFC6DFB23DC3505A882655FF77375ED8AA2D1C13F640FCCC2D0C85
 
