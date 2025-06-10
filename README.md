@@ -29,3 +29,21 @@ Q3. 1C8BFE8F801D79745C4631D09FFF36C82AA37FC4CCE4FC946683D7B336B63032
 I went to search for SHA2-256 decrypter online and found the result:
 
 ![image](https://github.com/user-attachments/assets/662529ed-e45f-43d6-94ea-577eaa93b399)
+
+Q4. $2y$12$Dwt1BZj6pcyc3Dy1FWZ5ieeUznr71EeNkJkUlypTsgbX1H68wsRom
+
+![image](https://github.com/user-attachments/assets/869678a5-115c-4990-bf45-0ea52098560d)
+
+I went to search for hashes.com and found the result:
+
+![Capture](https://github.com/user-attachments/assets/bb98cd45-2615-4fee-a0b3-7c2f72144298)
+
+Q5. 279412f945939ba78ce0758d3fd83daa
+
+![image](https://github.com/user-attachments/assets/a4aa8c00-c867-4500-a63c-738d6ce6aaf5)
+
+I went to search for hashes.com and found the result:
+
+![Capture_1](https://github.com/user-attachments/assets/8584ca65-707c-461e-ad37-bc2601aac265)
+
+
