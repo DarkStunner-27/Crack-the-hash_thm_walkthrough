@@ -46,4 +46,85 @@ I went to search for hashes.com and found the result:
 
 ![Capture_1](https://github.com/user-attachments/assets/8584ca65-707c-461e-ad37-bc2601aac265)
 
+## Level - 2 :
 
+This task increases the difficulty. All of the answers will be in the classic rock you password list.
+
+You might have to start using hashcat here and not online tools. It might also be handy to look at some example hashes on hashcats page.
+
+### Command : ** hashcat -m (hash mode) -a 0 (.txt file saved with given hash) /usr/share/wordlists/rockyou.txt **
+
+Q1. Hash: F09EDCB1FCEFC6DFB23DC3505A882655FF77375ED8AA2D1C13F640FCCC2D0C85
+
+![image](https://github.com/user-attachments/assets/95edff69-6c7c-482c-87d3-2ef150066e4f)
+
+As it is SHA256 the mode for it is 1400
+
+![image](https://github.com/user-attachments/assets/ae7598be-48ca-4efc-8887-298f1ffa5f72)
+
+![image](https://github.com/user-attachments/assets/808ed966-b433-438e-8d06-69ceac0ef522)
+
+Q2. Hash: 1DFECA0C002AE40B8619ECF94819CC1B
+
+![image](https://github.com/user-attachments/assets/1d0d966d-50b8-432b-8bd6-e38dc72afa5b)
+
+As it is MD5/MD4 the mode for it is 0/900
+
+First, trying with MD5 using the mode 0
+
+![image](https://github.com/user-attachments/assets/22a0ac1a-b57c-4f28-8063-42fc3b42f31c)
+
+![image](https://github.com/user-attachments/assets/2b78ba5c-79a4-406d-b6f9-2831d9ee6730)
+
+Let's try with MD4 with the mode 900
+
+![image](https://github.com/user-attachments/assets/342975c6-1b7e-4fc6-8204-e4b5bb761f49)
+
+![image](https://github.com/user-attachments/assets/9ad8f9e3-2908-41b1-8ea7-1acf39efd1eb)
+
+Again failed, by googling it, I found it was NTLM hash.
+
+For NTLM hash the mode is 1000
+
+![image](https://github.com/user-attachments/assets/4ccfa4ca-7d80-40c9-8200-e5c3589bb6cb)
+
+![image](https://github.com/user-attachments/assets/b5286488-96ba-4ae9-96eb-e10a8111756a)
+
+Q3. Hash: $6$aReallyHardSalt$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPMAXi4bJMl9be.cfi3/qxIf.hsGpS41BqMhSrHVXgMpdjS6xeKZAs02.
+
+Salt: aReallyHardSalt
+
+The first $6$ represents the code. 
+
+Here $6$ is for SHA512.
+
+For SHA512 the mode is 1760
+
+![image](https://github.com/user-attachments/assets/f0ac37ad-f63f-4506-92e5-0bc66fe853da)
+
+Next I found this, there are various modes in hashing
+
+![image](https://github.com/user-attachments/assets/d7ed793f-d77e-47dd-b129-289eddd5f06e)
+
+So I tried -m 1800 as it was close to the format that was given:
+
+![image](https://github.com/user-attachments/assets/9130f514-3eef-4a42-86a1-eda9c32d9b8b)
+
+Q4. Hash: e5d8870e5bdd26602cab8dbe07a942c8669e56d6
+
+Salt: tryhackme
+
+![image](https://github.com/user-attachments/assets/b1909f0d-51e7-4214-9e21-7aecdda78204)
+
+Since salt is given so I checked for different modes:
+
+![image](https://github.com/user-attachments/assets/bfa3d054-6b91-48c7-9f52-eefc057217b5)
+
+![image](https://github.com/user-attachments/assets/34be6f83-c823-458e-bc4b-49ec72442ef2)
+
+
+
+
+
+
+----------------------------------------------- It was a joyful learning with a bit of help from the hints. Hope you enjoyed, I did.  ----------------------------------------------
