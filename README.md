@@ -1,1 +1,1 @@
-# Crack-the-hash_thm_walkthrough
+# Crack-the-hash_tryhackme_walkthrough
