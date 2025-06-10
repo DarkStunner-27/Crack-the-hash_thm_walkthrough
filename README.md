@@ -127,4 +127,4 @@ Since salt is given so I checked for different modes:
 
 
 
------------------------------------------------ It was a joyful learning with a bit of help from the hints. Hope you enjoyed, I did.  ----------------------------------------------
+------------------------ It was a joyful learning with a bit of help from the hints. Hope you enjoyed, I did.  ------------------------------
